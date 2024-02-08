@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		143C90BD2B74AE68008743A1 /* GetHijaiyaHuruf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143C90BC2B74AE68008743A1 /* GetHijaiyaHuruf.swift */; };
+		143C90BF2B74B95F008743A1 /* Sound in Resources */ = {isa = PBXBuildFile; fileRef = 143C90BE2B74B95F008743A1 /* Sound */; };
 		149E6EE22B7123F100D012FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E6EE12B7123F100D012FA /* AppDelegate.swift */; };
 		149E6EE42B7123F100D012FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E6EE32B7123F100D012FA /* SceneDelegate.swift */; };
 		149E6EE62B7123F100D012FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E6EE52B7123F100D012FA /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		143C90BC2B74AE68008743A1 /* GetHijaiyaHuruf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetHijaiyaHuruf.swift; sourceTree = "<group>"; };
+		143C90BE2B74B95F008743A1 /* Sound */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sound; sourceTree = "<group>"; };
 		149E6EDE2B7123F100D012FA /* hijaiyah-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hijaiyah-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		149E6EE12B7123F100D012FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		149E6EE32B7123F100D012FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,7 @@
 		149E6EE02B7123F100D012FA /* hijaiyah-app */ = {
 			isa = PBXGroup;
 			children = (
+				143C90BE2B74B95F008743A1 /* Sound */,
 				149E6EE12B7123F100D012FA /* AppDelegate.swift */,
 				149E6EE32B7123F100D012FA /* SceneDelegate.swift */,
 				149E6EE52B7123F100D012FA /* ViewController.swift */,
@@ -63,6 +68,7 @@
 				149E6EEA2B7123F200D012FA /* Assets.xcassets */,
 				149E6EEC2B7123F200D012FA /* LaunchScreen.storyboard */,
 				149E6EEF2B7123F200D012FA /* Info.plist */,
+				143C90BC2B74AE68008743A1 /* GetHijaiyaHuruf.swift */,
 			);
 			path = "hijaiyah-app";
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				149E6EEE2B7123F200D012FA /* LaunchScreen.storyboard in Resources */,
 				149E6EEB2B7123F200D012FA /* Assets.xcassets in Resources */,
+				143C90BF2B74B95F008743A1 /* Sound in Resources */,
 				149E6EE92B7123F100D012FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				149E6EE62B7123F100D012FA /* ViewController.swift in Sources */,
+				143C90BD2B74AE68008743A1 /* GetHijaiyaHuruf.swift in Sources */,
 				149E6EE22B7123F100D012FA /* AppDelegate.swift in Sources */,
 				149E6EE42B7123F100D012FA /* SceneDelegate.swift in Sources */,
 			);
